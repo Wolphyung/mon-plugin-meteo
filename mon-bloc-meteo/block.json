@@ -1,0 +1,20 @@
+{
+  "name": "mon-plugin-meteo/mon-bloc",
+  "title": "Bloc Météo",
+  "description": "Affiche les prévisions météo pour la localisation de l'utilisateur.",
+  "icon": "cloud",
+  "category": "widgets",
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "attributes": {
+    "temperature": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}
